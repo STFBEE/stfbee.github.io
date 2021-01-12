@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #fffcb8 url("../graphics/back.gif") repeat;
+}
+
+#sheet {
+    z-index: 100;
+    display: block;
+    margin: 10px auto;
+    background: #f5ece5 url("../graphics/sheet_tile.png") repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    color: #844f63;
+    line-height: 30px;
+    font-size: medium;
+    font-family: 'Neucha', sans-serif;
+}
+
+#sheet #title {
+    font-family: 'Neucha', sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    font-size: xx-large;
+}
+
+#sheet li {
+    margin-left: 30px;
+}
+
+#sheet #content {
+    background: url("../graphics/line.png") repeat;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    font-size: small;
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: sans-serif;
+    margin: 10px auto;
+}
+
+a:visited,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #844f63;
+    text-decoration: underline;
+}
+
+::selection {
+    background: #844f63;
+    color: wheat;
+}
+
+::-moz-selection {
+    color: wheat;
+    background: #844f63;
+}
